@@ -43,3 +43,5 @@ Cryptographic hashes are determininate (the same string will always hash the sam
 
 Is this the absolute best method? Maybe not. But it should be reasonably difficult to guess one's final password -- as long as your phrases are unique to begin with. And it is easier to remember "my email password" and "my secret recipie" easier for most of us, I think, than to remeber "6MxKmDYfW5jHAsBbAgNS."
 
+For real use, be as idiosyncratic with your memorable phrases. This way, even if thee have this tool to use, to hack your passwords would still require hackers to hack your brain as well.
+
