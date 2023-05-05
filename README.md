@@ -21,6 +21,7 @@ Or, one can clone and/or fork this repo.
 !['my email password'](Screenshot1.jpg)
 
 2) spice it up (technically speaking, we are 'salting' the opriginal phrase). Enter a memorable phrase we can also remember.
+Make this part as unique as you can, even if that is one password you need to write down somewhere.
 
 !['my secret recipie'](Screenshot2.jpg)
 
@@ -37,7 +38,7 @@ Copy it at the bottom and paste where needed.
 ## What it does
 
 Basically, we take memorable (and ideally idiosyncratic phrases), turn them into cryptogrpahic hashes (sha256).
-Cryptographic hashes are determininate (the same string will always hash the same way), irreversable, and sensitive (in that a single character change in the input yields a very different hash). We then convert that in Base64 encoding and take the first 20 characters to produce our 20 character alphanumeric password.
+Cryptographic hashes are determininate (the same string will always hash the same way), irreversable, and sensitive (in that a single character change in the input yields a very different hash). We then convert that to Base64 encoding, and take the first 20 characters to produce our 20 character alphanumeric password.
 
-Is this the absolute best method? Maybe not. But it should be reasonably difficult to guess -- as long as your phrases are unique to begin with. 
+Is this the absolute best method? Maybe not. But it should be reasonably difficult to guess one's final password -- as long as your phrases are unique to begin with. 
 
