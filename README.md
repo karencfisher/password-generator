@@ -20,7 +20,8 @@ Or, one can clone and/or fork this repo.
 
 !['my email password'](assets/Screenshot_1.jpg)
 
-2) spice it up (technically speaking, we are 'salting' the opriginal phrase). Enter a memorable phrase we can also remember.
+2) Spice it up (technically speaking, we are 'salting' the opriginal phrase). Enter a memorable phrase we can also remember
+as your secret key.
 Make this part as unique as you can, even if that is the one arcane password you need to write down somewhere.
 
 !['my secret recipie'](assets/Screenshot_2.jpg)
