@@ -18,20 +18,20 @@ Or, one can clone and/or fork this repo.
 
 1) Let's start with a stupidest imaginible 'password' (still not recommended, probably better to be more imaginitive).
 
-!['my email password'](Screenshot1.jpg)
+!['my email password'](assets/Screenshot1.jpg)
 
 2) spice it up (technically speaking, we are 'salting' the opriginal phrase). Enter a memorable phrase we can also remember.
 Make this part as unique as you can, even if that is one password you need to write down somewhere.
 
-!['my secret recipie'](Screenshot2.jpg)
+!['my secret recipie'](assets/Screenshot2.jpg)
 
 3) Encode the secret key
 
-!['my secret recipie'](Screenshot3.jpg)
+!['my secret recipie'](assets/Screenshot3.jpg)
 
 4) Make your password
 
-!['my secret recipie'](Screenshot4.jpg)
+!['my secret recipie'](assets/Screenshot4.jpg)
 
 Copy it at the bottom and paste where needed. 
 
