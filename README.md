@@ -37,8 +37,8 @@ Copy it at the bottom and paste where needed.
 
 ## What it does
 
-Basically, we take memorable (and ideally idiosyncratic phrases), turn them into cryptogrpahic hashes (sha256).
+Basically, we take memorable (and ideally idiosyncratic) phrases, and turn them into cryptogrpahic hashes (sha256).
 Cryptographic hashes are determininate (the same string will always hash the same way), irreversable, and sensitive (in that a single character change in the input yields a very different hash). We then convert that to Base64 encoding, and take the first 20 characters to produce our 20 character alphanumeric password.
 
-Is this the absolute best method? Maybe not. But it should be reasonably difficult to guess one's final password -- as long as your phrases are unique to begin with. 
+Is this the absolute best method? Maybe not. But it should be reasonably difficult to guess one's final password -- as long as your phrases are unique to begin with. And it is easier to remember "my email password" and "my secret recipie" easier for most of us, I think, than to remeber "6MxKmDYfW5jHAsBbAgNS."
 
