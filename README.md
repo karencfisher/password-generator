@@ -16,7 +16,7 @@ Or, one can clone and/or fork this repo.
 
 ## Use
 
-1) Let's start with a stupidest imaginible 'password' (still not recommended, it's probably better to be more imaginative).
+1) Let's start with a stupidest imaginable 'password' (still not recommended, it's probably better to be more imaginative).
 
 !['my email password'](assets/Screenshot_1.jpg)
 
