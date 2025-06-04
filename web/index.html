@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Include crypto-js library for SHA256 and Base64 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/4.1.1/crypto-js.min.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        
+        <div class="form-group">
+            <label for="textInput">Enter some text</label>
+            <input type="text" id="textInput" class="input-field">
+        </div>
+        
+        <div class="form-group">
+            <label for="secretKeyInput">Enter your secret key</label>
+            <input type="text" id="secretKeyInput" class="input-field">
+        </div>
+        
+        <div class="button-group">
+            <button id="encodeButton" class="btn">Encode Secret Key</button>
+            <button id="makePasswordButton" class="btn">Make Password</button>
+        </div>
+        
+        <div class="form-group">
+            <label for="passwordOutput">Your password - copy and paste</label>
+            <div id="passwordOutput" class="password-output"></div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>

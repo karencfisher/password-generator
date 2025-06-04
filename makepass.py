@@ -1,5 +1,3 @@
-import json
-import os
 import tkinter as tk
 import hashlib
 import base64
@@ -46,7 +44,7 @@ class Application:
         self.label = tk.Label(self.root, text=label_text, bg="#88769c")
         self.label.pack(pady=5, side="top", fill="x")
 
-        self.newpass = tk.Entry(self.root, justify=tk.CENTER, bg="#88769c", width=300, borderwidth=0)
+        self.newpass = tk.Entry(self.root, justify=tk.CENTER, bg="#88769c", width=300, borderwidth=0, font=("Courier", 12))
         self.newpass.pack(padx=5, pady=5)
 
         self.root.mainloop()
